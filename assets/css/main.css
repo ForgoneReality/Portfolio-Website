@@ -904,6 +904,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: flex;
 	}
 
 		ul.icons li {
@@ -1664,3 +1665,16 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+	#contact > p{
+		margin-bottom: 0.7rem;
+	}
+
+	#bruh{
+		width: 36px;
+		height: 36px;
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		border: solid 1px white;
+		border-radius: 50%;
+	}
